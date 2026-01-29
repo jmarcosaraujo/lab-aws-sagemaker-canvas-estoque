@@ -13,11 +13,10 @@ Desenvolver um modelo de previsão de estoque inteligente usando ferramentas no�
 ## 📂 Estrutura do Projeto
 
 lab-aws-sagemaker-canvas-estoque/
-├──Conjuntos de dados/
-| └── dataset-500-curso.csv
-| └── dataset-1000-promo.csv
-| └── dataset-1000-var.csv
 ├── dataset/
+│ ├── dataset-500-curso.csv
+│ ├── dataset-1000-promo.csv
+│ ├── dataset-1000-var.csv
 │ └── estoque.csv
 ├── resultados/
 │ └── previsoes.csv
@@ -38,7 +37,7 @@ Abaixo está o fluxo de trabalho desde a importação de dados até a geração 
 
 ### Código Mermaid do Fluxograma (renderizável no GitHub)
 
-```mermaid
+
 flowchart TD
     A[Início] --> B[Preparação Inicial]
     B --> B1[Criar conta na AWS]
@@ -76,7 +75,6 @@ flowchart TD
     H --> H3[Commit e enviar link na DIO]
 
     H --> I[Fim]
-
 
 ---
 
