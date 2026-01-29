@@ -1,0 +1,11 @@
+data,produto,vendas,estoque_atual,preco
+2023-01-01,Produto A,18,200,29.9
+2023-01-02,Produto A,22,178,29.9
+2023-01-03,Produto A,20,158,29.9
+2023-01-04,Produto A,25,133,29.9
+2023-01-05,Produto A,30,103,29.9
+2023-01-06,Produto A,28,75,29.9
+2023-01-07,Produto A,35,40,29.9
+2023-01-08,Produto A,15,100,29.9
+2023-01-09,Produto A,18,82,29.9
+2023-01-10,Produto A,20,62,29.9
